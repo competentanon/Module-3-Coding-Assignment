@@ -1,4 +1,126 @@
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+#header-nav {
+    background-color: #808080;
+    border-radius: 0;
+    border: 5px solid #000;
+}
+
+.navbar-header {
+    min-height: 100px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 10px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
 .navbar-brand h1 {
     color: #000;
-    position: relative;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #eb9534;
+}
+
+#nav-list a {
+    color: #000;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #ff7000;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-toggle .collapsed button{
+    vertical-align: middle;
+}
+
+.navbar-header button {
+    height: 60px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #000;
+}
+/* End Header */
+
+/* Main Content */
+#box {
+    width: 100%;
+    background-color: #808080;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+h1 { 
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+p { /* Dummy Text Styling */
+    font-size: 1em;
+    text-transform: lowercase;
+}
+/* End Main Content */
+
+/* Large Devices Only */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium Devices Only */
+@media (min-width: 998px) and (max-width: 1199) {
+    #header-nav {
+        height: 100px;
+    }
+}
+
+/* Small Devices Only */
+@media (min-width: 768px) and (max-width: 997px) {
+
+}
+
+/* Extra-small Devices Only */
+@media (max-width: 767px) {
+    #box {
+        width: 80%;
+        background-color: #808080;
+        border: 0;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    }
+
 }
